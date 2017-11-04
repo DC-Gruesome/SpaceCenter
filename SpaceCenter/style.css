@@ -59,7 +59,7 @@ header .container-fluid
 .hamburger
 {
     font-size: 2.3em;
-    color: #ABC;
+    color: #6f8695;
 }
 
 .hamburger:hover
@@ -89,12 +89,12 @@ header .container-fluid
 .jumbotron h6,
 .jumbotron small
 {
-    color: #FFFFFF;
+    color: #e6efe9;
 }
 
 .jumbotron p
 {
-    color: #ABC;
+    color: #e6efe9;
     margin-bottom: 5%;
 }
 
@@ -126,7 +126,7 @@ header .container-fluid
 .opaline h6,
 .opaline p
 {
-    color: #FFFFFF;
+    color: #e6efe9;
 }
 
 .opaline .boxes
@@ -134,7 +134,7 @@ header .container-fluid
     margin-top: 30px;
     padding-top: 20px;
     padding-bottom: 5px;
-    border: 1px solid #FFF;
+    border: 1px solid #e6efe9;
 }
 
 .boxes .odometer.odometer-theme-default
@@ -173,7 +173,7 @@ header .container-fluid
 .prefooter h6,
 .prefooter p
 {
-    color: #FFFFFF;
+    color: #e6efe9;
 }
 
 /*------------------------------------*\
@@ -195,7 +195,7 @@ footer h5,
 footer h6,
 footer p
 {
-    color: #FFFFFF;
+    color: #e6efe9;
 }
 
 .social
