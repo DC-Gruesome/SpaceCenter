@@ -33,15 +33,16 @@
           theme: 'default'
         };
         </script>
+        <script type="text/javascript" src="./superfeedr.js"></script>
     </head>
     <body class="">
       <!-- Pushy Menu -->
       <nav class="pushy pushy-left">
         <ul class="list-unstyled">
-            <li><a href="#home">Home</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="industry.html">Industry</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#industry">Industry</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Get in Touch!</a></li>
         </ul>
@@ -71,61 +72,11 @@
                             </a>
                         </h1>
                         <p>The Premiere Space News & Education Platform for Space Enthusiasts.</p>
-                        <p><a href="#explore" class="btn btn-primary btn-lg" role="button">Explore</a></p>
+                        <p><a href="#industry" class="btn btn-primary btn-lg" role="button">Industry</a></p>
                     </div>
                 </div>
             </div>
         </header>
-        <section id="explore">
-            <div class="container">
-                <div class="row features">
-                    <div id="explore" class="col-md-4 text-center wow fadeInUp" data-wow-delay="100ms">
-                        <span><a href="news.html"><img src="images/newsIMG.png"></a></span>
-                        <h4>News</h4>
-                        <p>All the current news and events that you need to know about Space. From launches, to new discoveries, we keep you in the know!</p>
-                    </div>
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="300ms">
-                        <span><a href="education.html"><img src="images/education.png"></a></span>
-                        <h4>Education</h4>
-                        <p>Having trouble wrapping your head around a concept? Just curious? We have put together a comprehensive system so you can learn, explore, and enjoy the experience.</p>
-                    </div>
-                    <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="500ms">
-                        <span><a href="industry.html"><img src="images/Industry.png"></a></span>
-                        <h4>Industry</h4>
-                        <p>We tell YOU what is going on in the Space Industry. From large businesses, to startups, and even jobs!</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="education" class="number wow fadeInUp" data-wow-delay="300ms">
-            <!-- change the image in style.css to the class .number .container-fluid [approximately row 102] -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 opaline col-md-offset-6">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-10">
-                                    <h3>Entertainment</h3>
-                                    <h5>Resources</h5>
-                                    <p>Will live in this space.</p>
-                                </div>
-                            </div>
-                            <div class="row text-center">
-                                <!-- set the numbers in assets/js/scripts.js  -->
-                                <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp">
-                                    <h5>Ultricies</h5>
-                                    <h3 class="odometer 01">00000</h3>
-                                </div>
-                                <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-2 col-md-offset-2 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
-                                    <h5>Fermentum</h5>
-                                    <h3 class="odometer 02">00000</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section id="industry" class="blog wow fadeInUp" data-wow-delay="300ms">
             <div class="container">
                 <div class="row">
@@ -139,76 +90,6 @@
                         <a href="#">
                             <img src="images/rocketship.jpg" alt="" class="img-responsive">
                         </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="about" class="story wow fadeInUp" data-wow-delay="300ms">
-            <!-- change the image in style.css to the class .story .container-fluid [approximately row 141] -->
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 opaline">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <p class="lead"><i>Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <p><i>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</i></p>
-                                    <h6 class="lead"> – Fermentum Dapibus</h6>
-                                    <p><small>Nibh Etiam Risus Bibendum<br>
-        Nullam id dolor id nibh ultricies vehicula ut id elit.</small></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="photos" class="gallery wow fadeInUp" data-wow-delay="300ms">
-            <div class="container">
-                <div class="row">
-                    <div class="masonry image-gallery">
-                        <div class="grid-sizer"></div>
-                        <div class="gutter-sizer"></div>
-                        <div class="item item-width2">
-                            <a href="images/Blackhole2.jpg">
-                              <img src="images/Blackhole2.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/iss.jpg">
-                              <img src="images/iss.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/JupiterIO.jpg">
-                              <img src="images/JupiterIO.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/galaxies.jpg">
-                              <img src="images/galaxies.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/apolloLaunch.jpg">
-                              <img src="images/apolloLaunch.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/quasar.jpg">
-                              <img src="images/quasar.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/nebula.jpg">
-                              <img src="images/nebula.jpg" alt="" />
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="images/cluster.jpg">
-                              <img src="images/cluster.jpg" alt="" />
-                            </a>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -241,7 +122,7 @@
                         <p>© 2017 Your Company. Designed and Developed by your friendly SpaceCenter <a target="_blank" href="http://www.themeinthebox.com">DevStronauts</a>.</p>
                     </div>
                     <div class="col-md-4">
-                        <p class="text-right social"><a href="https://www.facebook.com/EnterStellar-1765019923624575/"><i class="typcn typcn-social-facebook-circular"></i></a><a href="https://twitter.com/Enter_Stellar"><i class="typcn typcn-social-twitter-circular"></i></a></p>
+                        <p class="text-right social"><a href="https://www.facebook.com/EnterStellar-1765019923624575/"><i class="typcn typcn-social-facebook-circular"></i></a><a href="https://twitter.com/Enter_Stellar"><i class="typcn typcn-social-twitter-circular"></i></a><i class="typcn typcn-social-tumbler-circular"></i><i class="typcn typcn-social-github-circular"></i><i class="typcn typcn-social-dribbble-circular"></i></p>
                     </div>
                 </div>
             </div>
