@@ -144,7 +144,7 @@ header .container-fluid
 
 .story .container-fluid
 {
-    background-image: url('../images/deepspace.jpg');
+    background-image: url('images/deepspace.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
